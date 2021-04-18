@@ -6,7 +6,7 @@
 
 ## What I learnt?
 1. YouTube API - connecting the YouTube API through axios (sending GET requests).
-2. Embedding Videos - I used an iframe to embed the YouTube videos `const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}``
+2. Embedding Videos - I used an iframe to embed the YouTube videos.
 4. Rendering a list of videos - I used the map function to render a list of videos, the props were passed through the parent components to the child.
 
 ## Technologies used:
