@@ -19,13 +19,15 @@ class SearchBar extends React.Component {
         return (
             <div className="search-bar ui segment">
                 <form onSubmit={this.onFormSubmit} className="ui form">
-                    <div className="field">
-                        <label>YouTube Search</label>
+                    <h2 className="ui header" style={{ textAlign: "center" }}>YouTube</h2>
+                    <div className="ui fluid icon input field">
                         <input 
                         type="text" 
+                        placeholder = "Search YouTube"
                         value={this.state.term}
                         onChange={this.onInputChange}
                         />
+                        <i className="youtube icon"></i>
                     </div>
                 </form>
             </div>
